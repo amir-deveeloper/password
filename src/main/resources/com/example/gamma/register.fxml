@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamma.HelloController">
+   <children>
+      <Label text="Hello! Please, set up your login and password" />
+      <TextField fx:id="setlog" onAction="#doSwitch" />
+      <PasswordField fx:id="setpin" onAction="#doSwitch" />
+      <Button fx:id="setup" contentDisplay="CENTER" mnemonicParsing="false" onAction="#doSwitch" text="Set up and log in" />
+   </children>
+</VBox>
